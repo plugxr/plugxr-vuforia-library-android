@@ -22,7 +22,7 @@ android {
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
     packagingOptions {
@@ -53,7 +53,8 @@ android {
         testImplementation 'junit:junit:4.12'
         androidTestImplementation 'androidx.test.ext:junit:1.1.1'
         androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-        //implementation(name: 'unityLibrary-release', ext:'aar')
+        //implementation 'com.github.plugxr:plugxr-vuforia-library-android:0.01'
         implementation project(':plugxrvuforia')
+
     }
 }
