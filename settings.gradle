@@ -1,0 +1,2 @@
+include ':app', ':plugxrvuforia'
+rootProject.name='LibraryBuildTest'
