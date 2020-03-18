@@ -74,7 +74,6 @@ public class PlugxrARScene extends OverrideUnityActivity {
 
 
 
-    public static String setToColor = "default";
     @Override
     protected void showMainActivity(String aSetToColor) {
 

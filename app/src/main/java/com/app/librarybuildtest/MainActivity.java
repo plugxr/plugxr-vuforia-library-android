@@ -21,11 +21,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+        // Initialize Plugxr Ar Scene here
         plugxrARScene = new Plugxr(getApplicationContext());
+
+
+        // Set Vuforia license keys here
         plugxrARScene.setVuforiaKeys(LicenceKeyToUnity,AccessKeyToUnity,SecretKeyToUnity);
 
-
-
+        // Start Plugxr AR when click on the button
         Button button = (Button)findViewById(R.id.startAr);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
