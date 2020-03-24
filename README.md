@@ -1,5 +1,5 @@
 ﻿# PlugXR Vuforia Library Android
-[![](https://jitpack.io/v/plugxr/plugxr-vuforia-library.svg)](https://jitpack.io/#plugxr/plugxr-vuforia-library)
+[![](https://jitpack.io/v/plugxr/plugxr-vuforia-library-android.svg)](https://jitpack.io/#plugxr/plugxr-vuforia-library-android)
 
 
 1. Create project or Open existing android project in android studio
