@@ -4,16 +4,21 @@
 
 1. Create project or Open existing android project in android studio
 	Make sure your project has following versions
+	
 	*minSdkVersion: 22*
+	
 	*targetSdkVersion: >=28*
+	
 	*gradle version: 3.4.2*
 
 2. Clone plugxr-vuforia-library-android library
+
 	`git clone https://github.com/plugxr/plugxr-vuforia-library-android.git`
 
 3. Click on `File -> New -> Import Module`. Then select `plugxr-vuforia-library-android` as module which is cloned in step 2.
 
 4. Open your app `build.gradle` and place below code in dependencies section.
+
 	```java
 	implementation project(':plugxr-vuforia-library-android')
 	```
@@ -68,4 +73,4 @@
 10. Run Application
 
 
-> *NOTE*: If you are facing any issues, Please raise a issue [here](https://github.com/plugxr/plugxr-vuforia-library-android/issues/new). We will issues as soon as possible
+> *NOTE*: If you are facing any issues, Please raise a issue [here](https://github.com/plugxr/plugxr-vuforia-library-android/issues/new). We will resolve issues as soon as possible
